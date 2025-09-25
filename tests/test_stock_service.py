@@ -1,6 +1,6 @@
 import pytest
 from src.stock_service import StockService
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 
 class TestStockService:
     def setup_method(self):

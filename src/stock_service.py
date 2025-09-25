@@ -1,6 +1,4 @@
-import requests
 import random
-from typing import Dict
 
 class StockService:
     def __init__(self):

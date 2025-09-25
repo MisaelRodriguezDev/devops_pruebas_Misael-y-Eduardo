@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from stock_service import StockService
+from .stock_service import StockService
 import uvicorn
 
 app = FastAPI(title="Stock Market API", version="1.0.0")
